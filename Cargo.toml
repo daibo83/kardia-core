@@ -1,0 +1,25 @@
+[package]
+name = "kardia-core"
+version = "0.0.0"
+authors = ["lew tran"]
+license = "MIT"
+categories = ["blockchain"]
+description = "kardia core"
+homepage = "https://github.com/kardiachain/kardia-core"
+repository = "https://github.com/kardiachain/kardia-core"
+readme = "README.md"
+edition = "2021"
+
+[workspace]
+members = [
+    "consensus",
+    "config",
+    "dualchain",
+    "dualnode",
+    "kvm",
+    "node",
+    "rpc",
+    "mainchain",
+    "proto",
+    "types"
+]
